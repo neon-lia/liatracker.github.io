@@ -1,1 +1,3 @@
-
+function loadData() {
+    return "Hello";
+}
