@@ -8,8 +8,10 @@ window.addEventListener('load', (event) => {
 
 function loadData() {
     return "Hello";
+    
     let { data: Food, error } = await supabase
         .from('Food')
         .select('Name')
+    document.getElementById("foodOutput").innerHTML = "Test";
 }
 
